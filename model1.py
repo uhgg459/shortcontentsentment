@@ -5,7 +5,7 @@ def generatewordcouple(shortcontent,wordtupledict):
 	#生成词对  目前是穷举法
 	wordcouplearray,wordcouplearraydict=[],{}	
 	for i in range(len(shortcontent)):fg
-		for j in range(i+1,len(shortcontent)):
+		for j in range(i+1,len(shortcontent)):sdfldf
 			wordcouplearray.append((shortcontent[i],shortcontent[j]))
 	#归纳所有词对的次数
 	for wordcouple in wordcouplearray:
