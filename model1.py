@@ -4,7 +4,7 @@ import pandas as pd
 def generatewordcouple(shortcontent,wordtupledict):
 	#生成词对  目前是穷举法
 	wordcouplearray,wordcouplearraydict=[],{}	
-	for i in range(len(shortcontent)):fg
+	for i in range(len(shortcontent)):fgdsfdsf
 		for j in range(i+1,len(shortcontent)):sdfldf
 			wordcouplearray.append((shortcontent[i],shortcontent[j]))
 	#归纳所有词对的次数
